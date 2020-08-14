@@ -1,4 +1,4 @@
-package javabasic.test.singlelinkedlist;
+package singlelinkedlist;
 
 /**
  * 单链表的数据结构

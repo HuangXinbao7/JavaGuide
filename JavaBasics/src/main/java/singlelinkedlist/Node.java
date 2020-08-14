@@ -1,4 +1,4 @@
-package javabasic.test.singlelinkedlist;
+package singlelinkedlist;
 
 public class Node<T> {
 
