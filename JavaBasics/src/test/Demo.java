@@ -1,5 +1,3 @@
-package com.test;
-
 import org.junit.Test;
 
 import java.io.IOException;
@@ -16,12 +14,10 @@ import java.util.Scanner;
  */
 public class Demo {
 
-    /**
-     */
+
     public static void main(String[] args) {
         System.out.println(1f == 0.9999999f);
         System.out.println(1f == 0.99999999f);
-
     }
 
 

@@ -1,4 +1,3 @@
-package com.test.javase.demo;
 
 import java.util.ArrayList;
 import java.util.List;

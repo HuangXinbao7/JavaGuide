@@ -1,4 +1,3 @@
-package com.test;
 
 /**
  * @author XinB
@@ -7,7 +6,7 @@ package com.test;
 public class Demo01 {
 
     /**
-     * ÁÐ³ö1-1000ÄÚ²»°üº¬4µÄÊý×Ö
+     * ï¿½Ð³ï¿½1-1000ï¿½Ú²ï¿½ï¿½ï¿½ï¿½ï¿½4ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
      */
     public static void main(String[] args) {
         for (int i = 1; i < 1000; i++) {
