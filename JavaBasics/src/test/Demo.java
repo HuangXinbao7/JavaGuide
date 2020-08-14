@@ -1,12 +1,8 @@
 import org.junit.Test;
 
 import java.io.IOException;
-import java.io.PrintWriter;
-import java.nio.file.Paths;
-import java.time.Instant;
 import java.time.LocalDate;
 import java.time.Month;
-import java.util.Scanner;
 
 /**
  * @author XinB

@@ -1,7 +1,4 @@
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Counter implements Runnable{
 
     private int counter = 200;
