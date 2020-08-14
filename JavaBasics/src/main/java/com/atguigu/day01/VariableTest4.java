@@ -1,6 +1,8 @@
+package com.atguigu.day01;
+
 class VariableTest4 {
 	public static void main(String[] args) {
-		
+
 		//1.编码情况1：
 		long l = 123213;
 		System.out.println(l);
@@ -20,6 +22,6 @@ class VariableTest4 {
 		//byte b1 = b + 1;//编译失败
 
 		//float f1 = b + 12.3;//编译失败
-		
+
 	}
 }

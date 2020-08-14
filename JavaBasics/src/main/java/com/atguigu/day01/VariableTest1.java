@@ -1,5 +1,7 @@
+package com.atguigu.day01;
+
 /*
-*/
+ */
 class VariableTest1 {
 	public static void main(String[] args) {
 		//1. 整型：byte(1字节=8bit) \ short(2字节) \ int(4字节) \ long(8字节)
@@ -10,7 +12,7 @@ class VariableTest1 {
 		//b2 = 128;//编译不通过
 		System.out.println(b1);
 		System.out.println(b2);
-		
+
 		// ② 声明long型变量，必须以"l"或"L"结尾
 		// ③ 通常，定义整型变量时，使用int型。
 		short s1 = 128;

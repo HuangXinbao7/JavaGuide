@@ -1,3 +1,5 @@
+package com.atguigu.day01;
+
 /*
 基本数据类型之间的运算规则：
 
@@ -16,7 +18,7 @@
 */
 class VariableTest2 {
 	public static void main(String[] args) {
-		
+
 		byte b1 = 2;
 		int i1 = 129;
 		//编译不通过

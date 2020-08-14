@@ -1,4 +1,4 @@
-import org.junit.Test;
+package com.atguigu.day01;
 
 /**
  * 变量的使用
