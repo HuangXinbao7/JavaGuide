@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fbe8549c-2e08-45c0-a7d9-0aa81777a31b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aEhmOUwWlUVG18rjsx6F0AM4X9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/atguigu/javase/homework" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.javase.homework" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\myWorkSpace\JavaSE\IdeaProjects\day15\src\com\atguigu\javase\homework" />
+      <recent name="E:\myWorkSpace\JavaSE\IdeaProjects\day15\src\com\atguigu\javase\finaltest" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MouseTest">
+    <configuration name="FlyerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.javase.interfacetest.FlyerTest" />
+      <module name="day15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.javase.interfacetest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MouseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.javase.homework.MouseTest" />
+      <module name="day15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.javase.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.javase.abstracttest.PetTest" />
+      <module name="day15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.javase.abstracttest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemplateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.javase.abstracttest.TemplateTest" />
+      <module name="day15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.javase.abstracttest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="USBTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.javase.interfacetest.USBTest" />
+      <module name="day15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.javase.interfacetest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MouseTest" />
+        <item itemvalue="Application.USBTest" />
+        <item itemvalue="Application.FlyerTest" />
+        <item itemvalue="Application.TemplateTest" />
+        <item itemvalue="Application.PetTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fbe8549c-2e08-45c0-a7d9-0aa81777a31b" name="Default Changelist" comment="" />
+      <created>1586306818665</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586306818665</updated>
+      <workItem from="1586306822283" duration="8504000" />
+      <workItem from="1586355832233" duration="17819000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2494" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1586416472328">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="2494" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1586416472328" />
+    <state width="1493" height="267" key="GridCell.Tab.0.bottom" timestamp="1586417530532">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="267" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1586417530532" />
+    <state width="1493" height="267" key="GridCell.Tab.0.center" timestamp="1586417530532">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="267" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1586417530532" />
+    <state width="1493" height="267" key="GridCell.Tab.0.left" timestamp="1586417530531">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="267" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1586417530531" />
+    <state width="1493" height="267" key="GridCell.Tab.0.right" timestamp="1586417530532">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="267" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1586417530532" />
+  </component>
+</project>
