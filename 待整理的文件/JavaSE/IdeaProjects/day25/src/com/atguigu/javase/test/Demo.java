@@ -1,9 +1,6 @@
 package com.atguigu.javase.test;
 
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-import org.junit.Test;
-
 public class Demo {
 
     /**

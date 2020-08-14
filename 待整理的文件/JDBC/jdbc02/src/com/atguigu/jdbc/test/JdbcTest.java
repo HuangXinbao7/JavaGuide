@@ -6,9 +6,9 @@ import org.junit.Test;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.sql.*;
-//import com.atguigu.jdbc.util.JdbcUtil *;
 import java.util.Properties;
+
+//import com.atguigu.jdbc.util.JdbcUtil *;
 
 /**
  * java.sql.Driver 是一个接口，表示驱动程序，要想使用数据库，必须安装驱动程序。

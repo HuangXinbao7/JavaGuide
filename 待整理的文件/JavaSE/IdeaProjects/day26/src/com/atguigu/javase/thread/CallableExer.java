@@ -2,7 +2,6 @@ package com.atguigu.javase.thread;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.*;
 
 /**
  * 使用线程池：

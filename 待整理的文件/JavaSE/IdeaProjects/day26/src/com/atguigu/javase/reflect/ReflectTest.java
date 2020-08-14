@@ -1,10 +1,7 @@
 package com.atguigu.javase.reflect;
 
-import com.sun.media.jfxmediaimpl.HostUtils;
-import com.sun.org.apache.bcel.internal.generic.ACONST_NULL;
 import org.junit.Test;
 
-import java.io.IOException;
 import java.io.InputStream;
 import java.io.Serializable;
 import java.lang.annotation.Retention;

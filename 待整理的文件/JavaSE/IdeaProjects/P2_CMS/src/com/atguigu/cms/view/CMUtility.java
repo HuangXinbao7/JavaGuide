@@ -1,7 +1,5 @@
 package com.atguigu.cms.view;
 
-import java.util.*;
-
 public class CMUtility {
     private static Scanner scanner = new Scanner(System.in);
     

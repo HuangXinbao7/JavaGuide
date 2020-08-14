@@ -2,9 +2,6 @@ package com.atguigu.javase.homework;
 
 import org.junit.Test;
 
-import java.io.*;
-import java.util.List;
-
 /**
  * 使用对象流写一个二进制文件， 保存随机个(100个以内）的随机数(100以内)。
  * 再写程序把所有的随机数都读出来

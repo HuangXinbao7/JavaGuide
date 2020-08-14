@@ -3,7 +3,7 @@ package com.atguigu.javase.homework;
 
 import org.junit.Test;
 
-import java.io.*;
+import java.io.IOException;
 
 /**
  * 分别使用节点流：FileInputStream、FileOutputStream 和

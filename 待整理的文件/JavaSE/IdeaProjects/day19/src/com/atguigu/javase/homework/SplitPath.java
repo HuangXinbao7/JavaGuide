@@ -1,8 +1,5 @@
 package com.atguigu.javase.homework;
 
-import java.util.Iterator;
-import java.util.Map;
-
 /**
  * 作业2：在cmd中输入 path, 把path环境变量复制成字符串, 切割, 分析你的path中有哪些目录
  */

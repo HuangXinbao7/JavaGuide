@@ -2,8 +2,6 @@ package com.atguigu.javase.reflect;
 
 import org.junit.Test;
 
-import java.lang.reflect.*;
-
 /**
  *
  */

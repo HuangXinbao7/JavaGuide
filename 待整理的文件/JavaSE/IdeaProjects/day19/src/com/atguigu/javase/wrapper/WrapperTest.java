@@ -1,6 +1,6 @@
 package com.atguigu.javase.wrapper;
 
-import org.junit.Test;      // 导入测试类库
+import org.junit.Test;
 
 /**
  * 库：多个jar构成

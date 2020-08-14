@@ -1,7 +1,5 @@
 package com.atguigu.javase.collection;
 
-import java.util.LinkedList;
-
 /**
  * LinkedList源码分析
  */

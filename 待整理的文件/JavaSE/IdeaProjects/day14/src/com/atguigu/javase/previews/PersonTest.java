@@ -1,7 +1,5 @@
 package com.atguigu.javase.previews;
 
-import java.sql.SQLOutput;
-
 // 类变量应用举例
 public class PersonTest {
     public static void main(String[] args) {

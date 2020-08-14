@@ -1,10 +1,5 @@
 package com.atguigu.javase.homework;
 
-import com.sun.org.apache.xml.internal.utils.StringToIntTable;
-import org.junit.Test;
-
-import java.util.*;
-
 /**
  * 作业2：请把学生名与考试分数录入到Map中，并按分数显示前三名成绩学员的名字。
  */

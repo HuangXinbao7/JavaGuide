@@ -7,7 +7,7 @@ import com.alibaba.druid.pool.DruidDataSourceFactory;
 import javax.sql.DataSource;
 import java.io.IOException;
 import java.io.InputStream;
-import java.sql.*;
+import java.sql.SQLException;
 import java.util.Properties;
 
 /**

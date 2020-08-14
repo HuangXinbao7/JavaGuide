@@ -1,10 +1,7 @@
 package com.atguigu.javase.generic;
 
 import com.atguigu.javase.Student;
-import javafx.collections.ObservableList;
 import org.junit.Test;
-
-import java.util.*;
 
 /**
  * 泛型：generic 解决集合中类型安全问题。如果使用Object类型会带来类型的损失

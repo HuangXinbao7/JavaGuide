@@ -1,12 +1,10 @@
 package com.atguigu.javase.collection;
 
 import org.junit.Test;
-import org.omg.CORBA.CODESET_INCOMPATIBLE;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.util.*;
 
 /**
  * Map<k, v>：保存一对一对的具有映射关系的对象。像一个字典。

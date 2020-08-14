@@ -1,9 +1,6 @@
 package com.atguigu.javase.io;
 
 import org.junit.Test;
-import org.omg.CORBA.MARSHAL;
-
-import java.io.*;
 
 /**
  * 字节，字符，输入，输出

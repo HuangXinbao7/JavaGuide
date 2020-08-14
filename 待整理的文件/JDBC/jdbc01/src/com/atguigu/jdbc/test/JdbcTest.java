@@ -1,11 +1,10 @@
 package com.atguigu.jdbc.test;
 
-import com.atguigu.jdbc.util.JdbcUtil;
 import com.atguigu.jdbc.Driver;
+import com.atguigu.jdbc.util.JdbcUtil;
 import org.junit.Test;
 
 import java.io.InputStream;
-import java.sql.*;
 import java.util.Properties;
 
 /**

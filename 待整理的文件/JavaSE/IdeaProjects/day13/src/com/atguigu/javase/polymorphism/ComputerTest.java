@@ -1,7 +1,5 @@
 package com.atguigu.javase.polymorphism;
 
-import sun.plugin.com.event.COMEventHandler;
-
 public class ComputerTest {
 
     /*

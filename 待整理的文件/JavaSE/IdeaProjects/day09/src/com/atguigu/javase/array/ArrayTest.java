@@ -1,7 +1,5 @@
 package com.atguigu.javase.array;
 
-import com.sun.xml.internal.ws.addressing.WsaActionUtil;
-
 public class ArrayTest {
 
     // 翻转数组：循环数组长度的一半，首尾交换

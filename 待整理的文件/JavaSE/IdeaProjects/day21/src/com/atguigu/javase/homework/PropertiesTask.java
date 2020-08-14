@@ -4,7 +4,6 @@ import org.junit.Test;
 
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.*;
 
 /**
  * 作业5：使用Properties处理一个属性文件，读取文件中的配置信息

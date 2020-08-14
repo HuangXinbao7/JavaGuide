@@ -1,11 +1,6 @@
 package com.atguigu.javase.generic;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-import jdk.internal.org.objectweb.asm.tree.LineNumberNode;
 import org.junit.Test;
-import org.w3c.dom.ls.LSOutput;
-
-import java.util.*;
 
 /**
  * Java泛型基础

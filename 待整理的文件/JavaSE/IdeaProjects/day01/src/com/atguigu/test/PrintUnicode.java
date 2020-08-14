@@ -1,7 +1,5 @@
 package com.atguigu.test;
 
-import com.sun.javaws.IconUtil;
-
 public class PrintUnicode {
 
     public static void main(String[] args) {

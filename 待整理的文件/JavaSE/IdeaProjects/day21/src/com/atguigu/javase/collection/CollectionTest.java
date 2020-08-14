@@ -2,8 +2,6 @@ package com.atguigu.javase.collection;
 
 import org.junit.Test;
 
-import java.util.*;
-
 /**
  * 集合：解决批量对象的存储问题。
  *  Collection: 保存一个一个的对象，无序可重复。

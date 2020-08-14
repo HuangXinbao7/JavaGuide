@@ -1,6 +1,5 @@
 package com.atguigu.jdbc.test;
 
-import com.alibaba.druid.support.json.JSONUtils;
 import com.atguigu.jdbc.javabean.Customer;
 import com.atguigu.jdbc.javabean.Teacher;
 import com.atguigu.jdbc.util.JdbcUtil;

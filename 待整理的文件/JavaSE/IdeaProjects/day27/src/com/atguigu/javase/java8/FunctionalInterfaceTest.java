@@ -1,7 +1,6 @@
 package com.atguigu.javase.java8;
 
 import com.atguigu.javase.javabean.Student;
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
 import org.junit.Test;
 
 import java.util.function.Consumer;

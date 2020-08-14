@@ -1,7 +1,5 @@
 package com.atguigu.javase.finaltest;
 
-import java.sql.SQLOutput;
-
 /**
  * final 修饰类，表明这个类是终极类，不允许被子类扩展，不能被继承
  * final 修饰方法，表明这个方法是终极方法，不允许子类重写

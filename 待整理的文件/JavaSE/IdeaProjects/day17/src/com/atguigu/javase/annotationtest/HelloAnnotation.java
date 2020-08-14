@@ -1,6 +1,4 @@
 package com.atguigu.javase.annotationtest;
-import java.lang.annotation.*;
-
 /**
  * 写一个自定义注解 HelloAnnotation，包含属性 int num，String value。属性 num 有缺省值 10
  * 再写一个Person类，有属性，有方法，有构造器，在 Person 类中的各地方使用自定义注解。

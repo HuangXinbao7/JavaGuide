@@ -1,7 +1,5 @@
 package com.atguigu.javase.homework;
 
-import java.io.*;
-
 /**
  * 把 C:/program files 目录复制为 D:/programs2
  */

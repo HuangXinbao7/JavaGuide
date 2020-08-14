@@ -1,7 +1,5 @@
 package com.atguigu.javase.homework;
 
-import java.io.*;
-
 /**
  * 作业1：使用缓冲流实现文本文件的复制
  */

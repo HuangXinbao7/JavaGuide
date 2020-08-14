@@ -2,8 +2,6 @@ package com.atguigu.javase.homework;
 
 import org.junit.Test;
 
-import java.util.*;
-
 /**
  * 作业3：给定一个字符串, 统计每个字符出现的次数
  * 这是一道谷歌面试题。

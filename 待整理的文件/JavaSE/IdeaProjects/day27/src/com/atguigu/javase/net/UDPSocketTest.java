@@ -1,10 +1,8 @@
 package com.atguigu.javase.net;
 
-import com.sun.org.apache.xpath.internal.operations.String;
 import org.junit.Test;
 
 import java.io.IOException;
-import java.net.*;
 
 /**
  *

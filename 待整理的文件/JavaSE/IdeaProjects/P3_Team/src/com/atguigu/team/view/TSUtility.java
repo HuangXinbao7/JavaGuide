@@ -1,7 +1,5 @@
 package com.atguigu.team.view;
 
-import java.util.*;
-
 public class TSUtility {
 
     private static Scanner scanner = new Scanner(System.in);

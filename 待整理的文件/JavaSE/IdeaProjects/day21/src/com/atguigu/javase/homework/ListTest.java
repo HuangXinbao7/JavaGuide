@@ -1,11 +1,8 @@
 package com.atguigu.javase.homework;
 
-import org.omg.PortableInterceptor.INACTIVE;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Scanner;
 
 /**
  * 作业1：

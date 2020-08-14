@@ -1,8 +1,6 @@
 package com.atguigu.javase.homework;
 
 
-import com.atguigu.javase.polymorphism.Person;
-
 public class DeviceTest {
 
     public static void main(String[] args) {

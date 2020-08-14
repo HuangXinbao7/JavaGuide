@@ -2,8 +2,6 @@ package com.atguigu.javase.homework;
 
 import org.junit.Test;
 
-import java.util.*;
-
 /**
  * 作业2：
  * 创建 Set 集合，保存10个随机整数，再把这些数复制到List集合中。

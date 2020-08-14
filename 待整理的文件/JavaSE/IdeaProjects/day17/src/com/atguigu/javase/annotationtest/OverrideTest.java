@@ -1,7 +1,5 @@
 package com.atguigu.javase.annotationtest;
 
-import com.sun.xml.internal.ws.addressing.WsaActionUtil;
-
 /**
  * Override 注释
  */

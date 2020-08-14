@@ -2,7 +2,6 @@ package com.atguigu.javase.thread;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.*;
 
 class MyCall implements Callable<String> {
 

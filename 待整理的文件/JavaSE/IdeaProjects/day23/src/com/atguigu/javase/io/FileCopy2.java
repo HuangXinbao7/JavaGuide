@@ -1,8 +1,6 @@
 package com.atguigu.javase.io;
 
 
-import java.io.*;
-
 /**
  * 写一个类FileCopy，在主方法中，把FileCopy.java 文件复制为 FileCopy.java.bak
  */

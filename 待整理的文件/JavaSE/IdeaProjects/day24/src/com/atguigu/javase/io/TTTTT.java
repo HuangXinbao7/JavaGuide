@@ -2,8 +2,6 @@ package com.atguigu.javase.io;
 
 import org.junit.Test;
 
-import java.io.*;
-
 /**
  * 字节, 字符, 输入, 输出
  * InputStream OutputStream Reader Writer

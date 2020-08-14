@@ -1,7 +1,5 @@
 package com.atguigu.javase.javabean;
 
-import java.util.*;
-
 public class StudentData {
 
     public static List<Student> getList() {

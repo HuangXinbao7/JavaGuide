@@ -2,9 +2,7 @@ package com.atguigu.javase.java8;
 
 import com.atguigu.javase.javabean.Student;
 import com.atguigu.javase.javabean.StudentData;
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
 import org.junit.Test;
-import org.w3c.dom.ls.LSOutput;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,9 +1,5 @@
 package com.atguigu.javase.java8;
 
-import org.junit.Test;
-
-import java.util.function.Consumer;
-
 /**
  * 消费型接口实例
  * 练习：分别写一个消费类，消费一个Student类型的对象

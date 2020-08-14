@@ -1,7 +1,5 @@
 package com.atguigu.javase.homework;
 
-import static java.lang.Character.getType;
-
 /**
  * 作业1：面试题
  */

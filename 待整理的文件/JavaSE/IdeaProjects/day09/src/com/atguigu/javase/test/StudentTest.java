@@ -1,7 +1,6 @@
 package com.atguigu.javase.test;
 
 import com.atguigu.javase.javabean.Student;
-import org.omg.CosNaming.IstringHelper;
 
 /**
  * 测试类要求是公共类

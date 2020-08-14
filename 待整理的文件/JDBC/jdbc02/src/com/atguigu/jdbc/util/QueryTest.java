@@ -8,7 +8,6 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.util.ArrayList;
-import java.util.concurrent.ExecutionException;
 
 /**
  * 查询是重点和难点

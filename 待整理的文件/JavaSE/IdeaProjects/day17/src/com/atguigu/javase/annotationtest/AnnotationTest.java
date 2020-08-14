@@ -4,7 +4,6 @@ import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
-import java.rmi.StubNotFoundException;
 
 /**
  * 注解：一种特殊的注释，是一个修饰符，本质上不参与程序的执行，特殊在可以被编译器和VM识别。

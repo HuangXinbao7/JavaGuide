@@ -2,9 +2,6 @@ package com.atguigu.javase.io;
 
 import org.junit.Test;
 
-import java.io.*;
-import java.nio.charset.StandardCharsets;
-
 /**
  * 处理流：在其他流的基础上进行连接，包装，在不改变被包装流的基础之上，提供更加好用的功能。
  */

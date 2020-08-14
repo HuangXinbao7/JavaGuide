@@ -1,7 +1,5 @@
 package com.atguigu.javase.homework;
 
-import java.util.*;
-
 public class StudentTask {
 
     /**

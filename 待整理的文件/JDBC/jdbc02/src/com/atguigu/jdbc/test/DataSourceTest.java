@@ -8,7 +8,6 @@ import com.atguigu.jdbc.util.JdbcUtil;
 import org.junit.Test;
 
 import javax.sql.DataSource;
-import java.io.IOException;
 import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.SQLException;
