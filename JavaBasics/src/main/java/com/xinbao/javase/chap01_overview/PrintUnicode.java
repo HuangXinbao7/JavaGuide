@@ -1,4 +1,4 @@
-package org.example.javabasics.variable;
+package com.xinbao.javase.chap01_overview;
 
 public class PrintUnicode {
 
