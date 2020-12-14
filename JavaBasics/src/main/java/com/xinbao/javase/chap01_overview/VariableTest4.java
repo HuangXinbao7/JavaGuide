@@ -1,4 +1,4 @@
-package com.xinbao.chap01_overview;
+package com.xinbao.javase.chap01_overview;
 
 class VariableTest4 {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.atguigu.javase.basesyntax;
+package com.xinbao.javase.basesyntax;
 
 
 import org.junit.Test;

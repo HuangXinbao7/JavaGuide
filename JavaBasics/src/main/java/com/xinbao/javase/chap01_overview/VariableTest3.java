@@ -1,4 +1,4 @@
-package com.xinbao.chap01_overview;
+package com.xinbao.javase.chap01_overview;
 
 /*
 强制类型转换：自动类型提升运算的逆运算。

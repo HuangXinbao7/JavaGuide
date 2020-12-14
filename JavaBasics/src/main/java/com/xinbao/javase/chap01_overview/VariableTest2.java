@@ -1,4 +1,4 @@
-package com.xinbao.chap01_overview;
+package com.xinbao.javase.chap01_overview;
 
 /*
 基本数据类型之间的运算规则：
