@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register 页面</title>
+    <style>
+        body{
+            background-color: darkseagreen;
+        }
+    </style>
+</head>
+<body>
+<h1>WELCOME Register</h1>
+<!--
+   action : 指定访问的请求地址
+   method : 指定请求的方式  GET|POST
+
+   表单提交的时候，会将表单的信息一并打包提交给服务端.
+   提交的数据格式为:
+      username=zhangsan
+      password=123456
+-->
+<form action="http://localhost:8080/Web0317/register" method="post">
+    USERNAME: <input type="text" name="username"/>
+    <br/>
+    PASSWORD: <input type="password" name="password"/>
+    <br/>
+    <input type="submit" value="register"/>
+</form>
+</body>
+</html>
