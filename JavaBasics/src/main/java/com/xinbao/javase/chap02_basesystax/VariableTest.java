@@ -6,7 +6,7 @@ import org.junit.Test;
 public class VariableTest {
 
     @Test
-    public void test04() {
+    public void test08() {
         //1. 整型：byte(1字节=8bit) \ short(2字节) \ int(4字节) \ long(8字节)
         //① byte范围：-128 ~ 127
         //
@@ -73,9 +73,110 @@ public class VariableTest {
 
 
     /**
+     * 编码
      */
     @Test
-    public void test03(){
+    public void test07() {
+        //1.编码情况1：
+        long l = 123213;
+        System.out.println(l);
+        //编译失败：过大的整数
+        //long l1 = 21332423235234123;
+        long l1 = 21332423235234123L;
+
+
+        //****************
+        //编译失败
+        //float f1 = 12.3;
+        float f1 = (float)12.3;
+        //2.编码情况2：
+        //整型常量，默认类型为int型
+        //浮点型常量，默认类型为double型
+        byte b = 12;
+        //byte b1 = b + 1;//编译失败
+
+        //float f1 = b + 12.3;//编译失败
+    }
+
+
+    /**
+     * 强制类型转换：自动类型提升运算的逆运算。
+     * 1.需要使用强转符：()
+     * 2.注意点：强制类型转换，可能导致精度损失。
+     */
+    @Test
+    public void test06() {
+        double d1 = 12.9;
+        //精度损失举例1
+        int i1 = (int)d1;//截断操作
+        System.out.println(i1);
+
+        //没有精度损失
+        long l1 = 123;
+        short s2 = (short)l1;
+
+        //精度损失举例2
+        int i2 = 128;
+        byte b = (byte)i2;
+        System.out.println(b);//-128
+    }
+
+
+    /**
+     * 基本数据类型之间的运算规则：
+     * 前提：这里讨论只是7种基本数据类型变量间的运算。不包含boolean类型的。
+     * 1. 自动类型提升：
+     *     结论：当容量小的数据类型的变量与容量大的数据类型的变量做运算时，结果自动提升为容量大的数据类型。
+     * 	byte 、char 、short --> int --> long --> float --> double
+     *
+     * 	特别的：当byte、char、short三种类型的变量做运算时，结果为int型
+     *
+     * 2. 强制类型转换：见VariableTest3.java
+     *
+     *
+     * 说明：此时的容量大小指的是，表示数的范围的大和小。比如：float容量要大于long的容量
+    */
+    @Test
+    public void test05() {
+        byte b1 = 2;
+        int i1 = 129;
+        //编译不通过
+        //byte b2 = b1 + i1;
+        int i2 = b1 + i1;
+        long l1 = b1 + i1;
+        System.out.println(i2);
+
+        float f = b1 + i1;
+        System.out.println(f);
+
+        short s1 = 123;
+        double d1 = s1;
+        System.out.println(d1);//123.0
+
+        //***************特别地*********************
+        char c1 = 'a';//97
+        int i3 = 10;
+        int i4 = c1 + i3;
+        System.out.println(i4);
+
+        short s2 = 10;
+        //char c2  = c1 + s2;//编译不通过
+
+        byte b2 = 10;
+        //char c3 = c1 + b2;//编译不通过
+
+        //short s3 = b2 + s2;//编译不通过
+
+        //short s4 = b1 + b2;//编译不通过
+        //****************************************
+    }
+
+
+    /**
+     * 不同类型之间的转换
+     */
+    @Test
+    public void test04(){
 
         byte b1 = 10;
         short s1 = 20;
@@ -103,7 +204,7 @@ public class VariableTest {
         d1 = d1 * s1 * l1;
     }
 
-    
+
     /**
      * 变量的使用
      * 1. java定义变量的格式：数据类型 变量名 = 变量值;
@@ -114,7 +215,7 @@ public class VariableTest {
      *    同一个作用域内，不可以声明两个同名的变量
      */
     @Test
-    public void test003() {
+    public void test03() {
         //变量的定义
         int myAge = 12;
         //变量的使用

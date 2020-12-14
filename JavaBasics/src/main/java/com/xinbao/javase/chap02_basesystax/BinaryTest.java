@@ -8,6 +8,17 @@ public class BinaryTest {
     @Test
     public void test1() {
 
+        int num1 = 0b110;
+        int num2 = 110;
+        int num3 = 0127;
+        int num4 = 0x110A;
+
+        System.out.println("num1 = " + num1);
+        System.out.println("num2 = " + num2);
+        System.out.println("num3 = " + num3);
+        System.out.println("num4 = " + num4);
+
+
         byte b1 = (byte)0x80;       // 十六进制的整数字面量，编译器不优化
         byte b2 = (byte)0x7F;
         System.out.println(b1);     // -128
