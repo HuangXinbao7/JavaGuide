@@ -4,12 +4,7 @@ import java.io.IOException;
 import java.time.LocalDate;
 import java.time.Month;
 
-/**
- * @author XinB
- * @create 2020-05-03-18:44
- */
 public class Demo {
-
 
     public static void main(String[] args) {
         System.out.println(1f == 0.9999999f);
@@ -17,9 +12,6 @@ public class Demo {
     }
 
 
-    /**
-     *
-     */
     @Test
     public void test1() throws IOException {
 

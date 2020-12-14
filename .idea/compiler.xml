@@ -10,9 +10,5 @@
         <module name="JavaSenior" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="JavaSE" target="1.8" />
-      <module name="JavaWeb" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
