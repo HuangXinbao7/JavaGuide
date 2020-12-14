@@ -1,4 +1,4 @@
-package com.xinbao.javase.chap02_basesystax;
+package com.xinbao.javase.chap02_basesystax.loop_structure;
 
 /**
  * For循环结构的使用
@@ -57,6 +57,5 @@ public class ForTest{
 
         System.out.println("总和为：" + sum);
         System.out.println("个数为：" + count);
-
     }
 }
