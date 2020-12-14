@@ -1,5 +1,7 @@
 package com.xinbao.javase.chap02_basesystax.loop_structure;
 
+import org.junit.Test;
+
 /**
  * 嵌套循环的使用
  * 1.嵌套循环：将一个循环结构A声明在另一个循环结构B的循环体中,就构成了嵌套循环
@@ -98,5 +100,65 @@ public class ForForTest {
         */
         //上半部分
         //下半部分
+    }
+
+
+    /**
+     * TestForForLoopBreak
+     */
+    @Test
+    public void ForForLoopBreakTest() {
+        l1: for (int i = 0; i < 10; i++) {
+            l2: for (int j = 0; j < 4; j++) {
+                System.out.println("j: " + j);
+                if (j == 1) {
+                    // break 中断的是最近的那层循环
+                    //break l1;   // 中断标签指示的循环，实现跨循环中断
+                    break;
+                }
+            }
+            System.out.println("i: " + i);
+        }
+    }
+
+
+    /**
+     * continue 中断循环
+     */
+    @Test
+    public void ForForLoopContinueTest() {
+        // 打印100以内的所有质数
+        l1:
+        for (int i = 2; i < 100; i++) {
+            // 如果i不是质数，则终止
+            for (int j = 2; j < i; j++) {
+                if (i % j == 0) {
+                    continue;
+                }
+            }
+            System.out.println(i + "是质数");
+        }
+    }
+
+
+
+    @Test
+    public void ForForLoopExer() {
+        // 打印200以内所有质数
+        for (int i = 2; i < 200; i++) {
+            // 判断i是否是质数，假设i是质数
+            boolean flag = true;
+
+            // 尝试推翻假设，从 2~n-1中只要找到一个数可以整除i
+            for (int j = 2; j < i; j++) {
+                if (i % j == 0) {   // 如果i被某个j整除，说明i不是质数
+                    flag = false;   // 推翻假设
+                    break;          // 反例不需要多，一个足以
+                }
+            }
+            if (flag) {
+                System.out.println(i + " 是质数");
+            }
+        }
     }
 }
