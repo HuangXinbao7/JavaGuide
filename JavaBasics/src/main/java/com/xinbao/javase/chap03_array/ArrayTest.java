@@ -1,4 +1,4 @@
-package com.xinbao.javase.array;
+package com.xinbao.javase.chap03_array;
 
 public class ArrayTest {
 

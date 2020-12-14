@@ -1,13 +1,14 @@
-package com.xinbao.javase.basesyntax;
+package com.xinbao.javase.chap02_basesystax;
 
 import org.junit.Test;
+
 
 public class BinaryTest {
 
     @Test
     public void test1() {
 
-        byte b1 = (byte)0x80;   // 十六进制的整数字面量，编译器不优化
+        byte b1 = (byte)0x80;       // 十六进制的整数字面量，编译器不优化
         byte b2 = (byte)0x7F;
         System.out.println(b1);     // -128
         System.out.println(b2);     // 127

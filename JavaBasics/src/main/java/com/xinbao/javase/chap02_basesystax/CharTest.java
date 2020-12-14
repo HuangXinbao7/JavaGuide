@@ -1,4 +1,4 @@
-package com.xinbao.javase.basesyntax;
+package com.xinbao.javase.chap02_basesystax;
 
 import org.junit.Test;
 
