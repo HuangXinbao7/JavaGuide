@@ -1,18 +1,17 @@
-package homework;
+package com.xinbao.javase.chap02_basesystax.homework;
 
-/*
-接收命令行参数年、月、日，判断这一天是当年的第几天
-    注：判断一年是否是闰年的标准：
-    1）可以被4整除，但不可被100整除
-    2）可以被400整除
-*/
-class HomeWork5 {
+/**
+ * 接收命令行参数年、月、日，判断这一天是当年的第几天
+ * 注：判断一年是否是闰年的标准：
+ *  1）可以被4整除，但不可被100整除
+ *  2）可以被400整除
+ */
+public class HomeWork5 {
     public static void main(String[] args) {
-
+        // 2020, 2, 23
         int year = Integer.parseInt(args[0]);
         int month = Integer.parseInt(args[1]);
         int day = Integer.parseInt(args[2]);
-        // 2020, 2, 23
 
         int days = 0;
         switch (month) {
@@ -62,6 +61,7 @@ class HomeWork5 {
 }
 
 
+
 class HomeWork5_2 {
     public static void main(String[] args){
 
@@ -69,6 +69,7 @@ class HomeWork5_2 {
         int month = Integer.parseInt(args[1]);
         int day = Integer.parseInt(args[2]);
         int days = day; // 变量的初始值的选择，尽量更有意义
+
         switch (month){
             case 12 :
                 days += 30;
@@ -97,6 +98,6 @@ class HomeWork5_2 {
                 days += 31;
         }
         System.out.println(""+ days);
-
     }
 }
+

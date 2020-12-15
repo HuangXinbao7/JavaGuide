@@ -1,29 +1,24 @@
 package com.xinbao.javase.chap02_basesystax.homework;
 
-// 答案
+/**
+ * 大家都知道，男大当婚，女大当嫁。那么女方家长要嫁女儿，当然要提出一定的条件：高：180cm以上；富：财富1千万以上；帅：是。
+ * 如果这三个条件同时满足，则：“我一定要嫁给他!!!”
+ * 如果三个条件有为真的情况，则：“嫁吧，比上不足，比下有余。”
+ * 如果三个条件都不满足，则：“不嫁！”
+ */
 class HomeWork3{
     public static void main(String[] args){
-        int num1 = Integer.parseInt(args[0]);
-        int num2 = Integer.parseInt(args[1]);
-        int num3 = Integer.parseInt(args[2]);
 
-        //
-        if(num1 < num2){    // 1 < 2
-            if(num2 < num3){        // 1 < 2, 2 < 3
-                System.out.println("从小到大的顺序为：" + num1 + ", " + num2 + ", " + num3);
-            }else if(num1 < num3){      // 1 < 2, 3 < 2, 1 < 3
-                System.out.println("从小到大的顺序为：" + num1 + ", " + num3 + ", " + num2);
-            }else{      // 1 < 2, 3 < 2, 3 < 1
-                System.out.println("从小到大的顺序为：" + num3 + ", " + num1 + ", " + num2);
-            }
-        }else{  // 2 < 1
-            if(num3 < num2){        // 2 < 1, 3 < 2
-                System.out.println("从小到大的顺序为：" + num3 + ", " + num2 + ", " + num1);
-            }else if(num1 < num3){      // 2 < 1, 2 < 3, 1 < 3
-                System.out.println("从小到大的顺序为：" + num2 + ", " + num1 + ", " + num3);
-            }else{      // 2 < 1, 2 < 3, 3 < 1
-                System.out.println("从小到大的顺序为：" + num2 + ", " + num3 + ", " + num1);
-            }
+        int height = Integer.parseInt(args[0]);
+        int money = Integer.parseInt(args[1]);
+        boolean handsome = Integer.parseInt(args[2]) != 0;  // 如果是0, 不帅, 非0就帅
+
+        if(height >= 180 && money >= 10000000 && handsome){
+            System.out.println("我一定要嫁给他!!!");
+        }else if(height >= 180 || money >= 10000000 || handsome){
+            System.out.println("嫁吧，比上不足，比下有余。");
+        }else{
+            System.out.println("不嫁！");
         }
     }
 }

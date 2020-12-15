@@ -1,4 +1,4 @@
-package com.xinbao.javase.chap02_basesystax;
+package com.xinbao.javase.chap02_basesystax.loop_structure;
 
 /**
  * While 循环的使用

@@ -1,4 +1,4 @@
-package copylist;
+package com.xinbao.javase.chap03_array;
 
 import org.junit.Test;
 
