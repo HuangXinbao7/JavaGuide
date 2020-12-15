@@ -42,8 +42,8 @@ public class SwitchCaseTest {
 
     public static void main(String[] args) {
         int number = 5;
-        switch(number){
 
+        switch(number){
             case 0:
                 System.out.println("zero");
                 break;

@@ -1,5 +1,9 @@
 package com.xinbao.javase.chap03_array;
 
+/**
+ *
+ */
+
 public class ArrayTest {
 
     // 翻转数组：循环数组长度的一半，首尾交换
