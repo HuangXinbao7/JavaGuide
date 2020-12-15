@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 
 /**
- * Created by XinB on 2020/8/19 7:10
+ * Created by Ming on 2020/8/19 7:10
  *
  * Copy ArrayList的四种方式
  */

@@ -1,9 +1,9 @@
-package com.xinbao.javase.chap03_array.arrayexer;
+package com.xinbao.javase.chap03_array.array_exer;
 
 /**
  *
  */
-public class ArrayTest {
+public class ArrayAlgorithmExer {
 
     // 翻转数组：循环数组长度的一半，首尾交换
     public static void main(String[] args) {

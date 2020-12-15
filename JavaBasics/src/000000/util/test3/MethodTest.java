@@ -1,6 +1,6 @@
 package com.xinbao.javase.chap15_reflect.util.test3;
 
-import org.example.javase.chap15.reflect.test1.Person;
+//import org.example.javase.chap15.reflect.test1.Person;
 import org.junit.Test;
 
 import java.lang.annotation.Annotation;

@@ -11,7 +11,7 @@ import java.util.Scanner;
  * break:	    switch-case等循环结构中	结束当前循环		    关键字后面不能声明执行语句
  * continue:	循环结构中			    结束当次循环			关键字后面不能声明执行语句
  */
-public class BreakContinueTest {
+public class BreakAndContinueTest {
 
     public static void main(String[] args) {
         for (int i = 1; i <= 10; i++) {
