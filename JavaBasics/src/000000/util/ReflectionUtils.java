@@ -1,4 +1,4 @@
-package com.xinbao.javase.chap15_reflect.util;
+package com.xinbao.javase.chap15reflect.util;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;

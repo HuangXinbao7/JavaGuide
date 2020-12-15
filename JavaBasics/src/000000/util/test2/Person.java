@@ -1,4 +1,4 @@
-package com.xinbao.javase.chap15_reflect.util.test2;
+package com.xinbao.javase.chap15reflect.util.test2;
 
 @MyAnnotation(value="hi")
 public class Person extends Creature<String> implements Comparable<String>,MyInterface{

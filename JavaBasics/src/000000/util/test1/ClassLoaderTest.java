@@ -1,4 +1,4 @@
-package com.xinbao.javase.chap15_reflect.util.test1;
+package com.xinbao.javase.chap15reflect.util.test1;
 
 
 import org.junit.Test;
