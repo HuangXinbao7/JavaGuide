@@ -1,6 +1,0 @@
-package com.atguigu.javase.io;
-
-import org.junit.Test;
-
-import java.io.FileReader;
-import java.io.FileWriter;

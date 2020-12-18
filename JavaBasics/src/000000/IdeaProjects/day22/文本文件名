@@ -1,4 +1,0 @@
-at java.io.FileInputStream.open0(Native Method)
-at java.io.FileInputStream.open(FileInputStream.java:195)
-at java.io.FileInputStream.<init>(FileInputStream.java:138)
-at java.io.FileInputStream.<init>(FileInputStream.java:93)
