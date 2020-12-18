@@ -1,3 +1,4 @@
+package com.xinbao.javase.chap04oop.basic.javabean;
 
 public class Person {
 

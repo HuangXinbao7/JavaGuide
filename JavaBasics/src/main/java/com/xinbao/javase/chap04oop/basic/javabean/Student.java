@@ -1,4 +1,4 @@
-package com.atguigu.javase.javabean;
+package com.xinbao.javase.chap04oop.basic.javabean;
 
 public class Student {
 
@@ -51,5 +51,4 @@ public class Student {
     public String say() {
         return "学号 : " + id + ", 姓名 : " + name + ", 年级 : " + grade + ", 分数 : " + score;
     }
-
 }

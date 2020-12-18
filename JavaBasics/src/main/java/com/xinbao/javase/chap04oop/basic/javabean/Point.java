@@ -1,4 +1,4 @@
-package com.atguigu.javase.javabean;
+package com.xinbao.javase.chap04oop.basic.javabean;
 
 /**
  * 3.定义一个“点”（Point）类用来表示平面中中的点（有两个坐标）。要求如下：
@@ -39,7 +39,7 @@ public class Point {
     }
 
     // 这种写法不好, 对象内部已经有数据了, 就不要插手别的数据
-    //public int getDistance(int x, int y) {
+    // public int getDistance(int x, int y) {
     public int getDistance() {
         return x * x + y * y;
     }
