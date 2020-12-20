@@ -43,42 +43,42 @@ public class EncapsulationTest {
 		
 		System.out.println(a.name);
 	}
-}
 
 
-class Animal{
-	
-	String name;
-	private int age;
-	private int legs;	// 腿的个数
-	
-	// 对属性的设置
-	public void setLegs(int l){
-		if(l >= 0 && l % 2 == 0){
-			legs = l;
-		}else{
-			legs = 0;
+	static class Animal {
+
+		String name;
+		private int age;
+		private int legs;	// 腿的个数
+
+		// 对属性的设置
+		public void setLegs(int l){
+			if(l >= 0 && l % 2 == 0){
+				legs = l;
+			}else{
+				legs = 0;
+			}
 		}
-	}
-	
-	// 对属性的获取
-	public int getLegs(){
-		return legs;
-	}
 
-	public void eat(){
-		System.out.println("动物进食");
-	}
-	
-	public void show(){
-		System.out.println("name = " + name + ",age = " + age + ",legs = " + legs);
-	}
-	
-	// 提供关于属性age的get和set方法
-	public int getAge(){
-		return age;
-	}
-	public void setAge(int a){
-		age = a;
+		// 对属性的获取
+		public int getLegs(){
+			return legs;
+		}
+
+		public void eat(){
+			System.out.println("动物进食");
+		}
+
+		public void show(){
+			System.out.println("name = " + name + ",age = " + age + ",legs = " + legs);
+		}
+
+		// 提供关于属性age的get和set方法
+		public int getAge(){
+			return age;
+		}
+		public void setAge(int a){
+			age = a;
+		}
 	}
 }
