@@ -1,4 +1,4 @@
-package com.atguigu.java2;
+package com.xinbao.javase.chap04oop.Intermediate.interview;
 
 import org.junit.Test;
 
@@ -7,7 +7,7 @@ import org.junit.Test;
  * 
  * 
  */
-public class InterviewTest {
+public class WrapperTest {
 
 	@Test
 	public void test1() {

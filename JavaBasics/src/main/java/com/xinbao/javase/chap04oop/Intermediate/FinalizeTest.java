@@ -1,12 +1,12 @@
-package com.atguigu.java1;
+package com.xinbao.javase.chap04oop.Intermediate;
 
 
 public class FinalizeTest {
 	public static void main(String[] args) {
 		Person p = new Person("Peter", 12);
 		System.out.println(p);
-		p = null;//此时对象实体就是垃圾对象，等待被回收。但时间不确定。
-		System.gc();//强制性释放空间
+		p = null;		// 此时对象实体就是垃圾对象，等待被回收。但时间不确定。
+		System.gc();	// 强制性释放空间
 	}
 }
 

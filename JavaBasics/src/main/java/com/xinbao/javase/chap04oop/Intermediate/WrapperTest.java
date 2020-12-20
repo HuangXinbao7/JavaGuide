@@ -1,4 +1,4 @@
-package com.atguigu.java2;
+package com.xinbao.javase.chap04oop.Intermediate;
 
 import org.junit.Test;
 
@@ -7,9 +7,6 @@ import org.junit.Test;
  * 1.java提供了8种基本数据类型对应的包装类，使得基本数据类型的变量具有类的特征
  * 
  * 2.掌握的：基本数据类型、包装类、String三者之间的相互转换
- * 
- * 
- * 
  */
 public class WrapperTest {
 	
@@ -67,7 +64,6 @@ public class WrapperTest {
 		System.out.println(in1.toString());
 		
 		int num3 = in1;//自动拆箱
-		
 	}
 	
 	public void method(Object obj){
@@ -115,16 +111,14 @@ public class WrapperTest {
 		Boolean b3 = new Boolean("true123");
 		System.out.println(b3);//false
 		
-		
 		Order order = new Order();
 		System.out.println(order.isMale);//false
 		System.out.println(order.isFemale);//null
 	}
-	
 }
 
-class Order{
-	
+
+class Order {
 	boolean isMale;
 	Boolean isFemale;
 }

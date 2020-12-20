@@ -1,4 +1,4 @@
-package com.atguigu.java1;
+package com.xinbao.javase.chap04oop.Intermediate;
 /*
  * static关键字的使用
  * 

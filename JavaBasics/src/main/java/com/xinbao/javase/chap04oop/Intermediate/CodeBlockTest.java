@@ -1,4 +1,4 @@
-package com.atguigu.java3;
+package com.xinbao.javase.chap04oop.Intermediate;
 /*
  * 类的成员之四：代码块（或初始化块）
  * 
@@ -23,38 +23,36 @@ package com.atguigu.java3;
  * 		>非静态代码块内可以调用静态的属性、静态的方法，或非静态的属性、非静态的方法
  * 
  */
-public class BlockTest {
+public class CodeBlockTest {
 	public static void main(String[] args) {
 		
-		String desc = Person.desc;
+		String desc = NewPerson.desc;
 		System.out.println(desc);
-		
-		Person p1 = new Person();
-		Person p2 = new Person();
+
+		NewPerson p1 = new NewPerson();
+		NewPerson p2 = new NewPerson();
 		System.out.println(p1.age);
-		
-		Person.info();
+
+		NewPerson.info();
 	}
 }
 
 
-class Person{
+class NewPerson {
+
 	//属性
 	String name;
-	
 	int age;
+	static String desc = "一个人";
 
-	static String desc = "我是一个人";
-	
 	//构造器
-	public Person(){
-		
+	public NewPerson(){
 	}
-	public Person(String name,int age){
+	public NewPerson(String name,int age){
 		this.name = name;
 		this.age = age;
 	}
-	
+
 	//非static的代码块
 	{
 		System.out.println("hello, block - 2");
@@ -68,6 +66,7 @@ class Person{
 		desc = "我是一个爱学习的人1";
 		info();
 	}
+
 	//static的代码块
 	static{
 		System.out.println("hello,static block-2");
@@ -81,7 +80,7 @@ class Person{
 //		eat();
 //		name = "Tom";
 	}
-	
+
 	//方法
 	public void eat(){
 		System.out.println("吃饭");
@@ -93,5 +92,4 @@ class Person{
 	public static void info(){
 		System.out.println("我是一个快乐的人！");
 	}
-	
 }

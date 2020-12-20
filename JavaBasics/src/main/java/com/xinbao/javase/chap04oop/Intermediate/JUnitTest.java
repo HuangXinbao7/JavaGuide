@@ -1,10 +1,9 @@
-package com.atguigu.java2;
+package com.xinbao.javase.chap04oop.Intermediate;
 
 import java.util.Date;
-
 import org.junit.Test;
 
-/*
+/**
  * Java中的JUnit单元测试
  * 
  * 步骤：

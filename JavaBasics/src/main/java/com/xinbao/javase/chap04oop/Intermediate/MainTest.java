@@ -1,4 +1,4 @@
-package com.atguigu.java2;
+package com.xinbao.javase.chap04oop.Intermediate;
 /*
  * main()方法的使用说明：
  * 1. main()方法作为程序的入口
@@ -9,18 +9,16 @@ package com.atguigu.java2;
  * 
  */
 public class MainTest {
-	
-	
+
 	public static void main(String[] args) {//入口
 		
 		Main.main(new String[100]);
 		
 		MainTest test = new MainTest();
 		test.show();
-		
-	}	
+	}
+
 	public void show(){
-		
 	}
 }
 
@@ -28,12 +26,9 @@ public class MainTest {
 class Main{
 		
 	public static void main(String[] args) {
-	
 		for(int i = 0;i < args.length;i++){
 			args[i] = "args_" + i;
 			System.out.println(args[i]);
 		}
-		
 	}
-	
 }

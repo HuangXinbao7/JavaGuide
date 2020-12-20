@@ -1,4 +1,4 @@
-package com.atguigu.java3;
+package com.xinbao.javase.chap04oop.Intermediate;
 /*
  * final:最终的
  * 

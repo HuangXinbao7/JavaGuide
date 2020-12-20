@@ -1,4 +1,4 @@
-package com.atguigu.java3;
+package com.xinbao.javase.chap04oop.Intermediate;
 //总结：由父及子，静态先行
 class Root{
 	static{
