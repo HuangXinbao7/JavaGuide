@@ -1,11 +1,13 @@
-package com.atguigu.java1;
+package com.xinbao.javase.chap04oop.Intermediate.override;
 
+/**
+ * Student类，继承于Person类
+ */
 public class Student extends Person{
 
 	String major;
 	
 	public Student(){
-		
 	}
 	public Student(String major){
 		this.major = major;
@@ -28,17 +30,11 @@ public class Student extends Person{
 		return null;
 	}
 	
-//	public int info1(){
-//		return 1;
-//	}
-	
-//	public void walk(int distance){
-//		System.out.println("重写的方法");
-//	}
-	
-	
+	//public double info1(){
+	//	return 1;
+	//}
+
 	public void walk(int distance) {
 		System.out.println("重写的方法");
 	}
-
 }

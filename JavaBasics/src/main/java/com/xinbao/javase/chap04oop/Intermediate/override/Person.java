@@ -1,4 +1,4 @@
-package com.atguigu.java1;
+package com.xinbao.javase.chap04oop.Intermediate.override;
 
 public class Person {
 	
@@ -6,16 +6,20 @@ public class Person {
 	int age;
 	
 	public Person(){
-		
 	}
+
 	public Person(String name,int age){
 		this.name = name;
 		this.age = age;
 	}
-	
-	 void eat(){
+
+	// 默认访问权限
+	void eat(){
+		// 被子类重写的方法
 		System.out.println("吃饭");
 	}
+
+
 	public void walk(int distance){
 		System.out.println("走路,走的距离是：" + distance + "公里");
 		show();
@@ -33,5 +37,4 @@ public class Person {
 	public double info1(){
 		return 1.0;
 	}
-
 }
