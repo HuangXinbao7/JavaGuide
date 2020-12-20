@@ -1,4 +1,4 @@
-package com.atguigu.java3;
+package com.xinbao.javase.chap04oop.basic.Inheritance;
 /*
  * 子类对象实例化的全过程
  * 

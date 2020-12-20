@@ -1,5 +1,4 @@
-package com.atguigu.java4;
-
+package com.xinbao.javase.chap04oop.Intermediate.polymorphism;
 
 
 /*
@@ -18,8 +17,7 @@ package com.atguigu.java4;
  * 5.对象的多态性，只适用于方法，不适用于属性（编译和运行都看左边）
  */
 public class PersonTest {
-	
-	
+
 	public static void main(String[] args) {
 		
 		Person p1 = new Person();
@@ -42,6 +40,60 @@ public class PersonTest {
 //		p2.earnMoney();
 		
 		System.out.println(p2.id);//1001
-		
 	}
+
+
+	public static class Person {
+		String name;
+		int age;
+
+		int id = 1001;
+
+		public void eat(){
+			System.out.println("人：吃饭");
+		}
+
+		public void walk(){
+			System.out.println("人：走路");
+		}
+	}
+
+
+	public static class Man extends Person{
+
+		boolean isSmoking;
+
+		int id = 1002;
+
+		public void earnMoney(){
+			System.out.println("男人负责挣钱养家");
+		}
+
+		public void eat(){
+			System.out.println("男人多吃肉，长肌肉");
+		}
+
+		public void walk(){
+			System.out.println("男人霸气的走路");
+		}
+	}
+
+
+	public static class Woman extends Person{
+
+		boolean isBeauty;
+
+		public void goShopping(){
+			System.out.println("女人喜欢购物");
+		}
+
+		public void eat(){
+			System.out.println("女人少吃，为了减肥");
+		}
+
+		public void walk(){
+			System.out.println("女人窈窕的走路");
+		}
+	}
+
 }
