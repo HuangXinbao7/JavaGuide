@@ -77,6 +77,13 @@ class Customer{
     int age;
     boolean isMale;
 
+    public Customer(String f, String l) {
+    }
+
+    public Customer() {
+
+    }
+
     // 方法
     public void eat(){
         System.out.println("客户吃饭");

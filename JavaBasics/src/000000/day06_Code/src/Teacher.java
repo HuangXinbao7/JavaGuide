@@ -10,7 +10,7 @@
 public class Teacher {
 
     // 成员变量描述事物的特征
-    // 属性如果没有初始化，也会有缺省值，因为对象的创建时JVM负责的
+    // 属性如果没有初始化，也会有缺省值，因为对象的创建是JVM负责的
     String name;    // 也称对象属性，或实例变量
     int age;
     String gender;
